@@ -1,0 +1,23 @@
+timestamp: Timestamp(ms)
+yearmonth: Utf8
+_id: Utf8
+intersection_id: Utf8
+intersection_type: Null
+sourceId: Utf8
+incomingLink_id: Utf8
+incomingLink_type: Null
+incomingLink_lane: Null
+crossingDuration: Int64
+version: Int64
+requestTimestamp: Int64
+onBehalfOf_id: Utf8
+onBehalfOf_type: Null
+onBehalfOf_modality: Utf8
+id: Utf8
+movements: List(Struct("outgoingLink": Struct("id": Utf8, "type": Null, "lane": Null), "probability": Float64))
+entryZone: Utf8
+source: Utf8
+reliability: Int64
+stuck: Boolean
+creationTimestamp: Int64
+messageExpiryInterval: Int64
